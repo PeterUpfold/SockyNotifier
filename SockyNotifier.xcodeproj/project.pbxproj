@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D003914922ACF3430099CC82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003914822ACF3430099CC82 /* AppDelegate.swift */; };
+		D003914B22ACF3440099CC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D003914A22ACF3440099CC82 /* Assets.xcassets */; };
+		D003914E22ACF3440099CC82 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D003914C22ACF3440099CC82 /* MainMenu.xib */; };
+		D003915A22ACF3440099CC82 /* SockyNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003915922ACF3440099CC82 /* SockyNotifierTests.swift */; };
+		D003916522ACF3440099CC82 /* SockyNotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003916422ACF3440099CC82 /* SockyNotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D003915622ACF3440099CC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D003913D22ACF3430099CC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D003914422ACF3430099CC82;
+			remoteInfo = SockyNotifier;
+		};
+		D003916122ACF3440099CC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D003913D22ACF3430099CC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D003914422ACF3430099CC82;
+			remoteInfo = SockyNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D003914522ACF3430099CC82 /* SockyNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SockyNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003914822ACF3430099CC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D003914A22ACF3440099CC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D003914D22ACF3440099CC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D003914F22ACF3440099CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D003915022ACF3440099CC82 /* SockyNotifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SockyNotifier.entitlements; sourceTree = "<group>"; };
+		D003915522ACF3440099CC82 /* SockyNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockyNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003915922ACF3440099CC82 /* SockyNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockyNotifierTests.swift; sourceTree = "<group>"; };
+		D003915B22ACF3440099CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D003916022ACF3440099CC82 /* SockyNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SockyNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003916422ACF3440099CC82 /* SockyNotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockyNotifierUITests.swift; sourceTree = "<group>"; };
+		D003916622ACF3440099CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D003914222ACF3430099CC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915222ACF3440099CC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915D22ACF3440099CC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D003913C22ACF3430099CC82 = {
+			isa = PBXGroup;
+			children = (
+				D003914722ACF3430099CC82 /* SockyNotifier */,
+				D003915822ACF3440099CC82 /* SockyNotifierTests */,
+				D003916322ACF3440099CC82 /* SockyNotifierUITests */,
+				D003914622ACF3430099CC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D003914622ACF3430099CC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D003914522ACF3430099CC82 /* SockyNotifier.app */,
+				D003915522ACF3440099CC82 /* SockyNotifierTests.xctest */,
+				D003916022ACF3440099CC82 /* SockyNotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D003914722ACF3430099CC82 /* SockyNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				D003914822ACF3430099CC82 /* AppDelegate.swift */,
+				D003914A22ACF3440099CC82 /* Assets.xcassets */,
+				D003914C22ACF3440099CC82 /* MainMenu.xib */,
+				D003914F22ACF3440099CC82 /* Info.plist */,
+				D003915022ACF3440099CC82 /* SockyNotifier.entitlements */,
+			);
+			path = SockyNotifier;
+			sourceTree = "<group>";
+		};
+		D003915822ACF3440099CC82 /* SockyNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				D003915922ACF3440099CC82 /* SockyNotifierTests.swift */,
+				D003915B22ACF3440099CC82 /* Info.plist */,
+			);
+			path = SockyNotifierTests;
+			sourceTree = "<group>";
+		};
+		D003916322ACF3440099CC82 /* SockyNotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D003916422ACF3440099CC82 /* SockyNotifierUITests.swift */,
+				D003916622ACF3440099CC82 /* Info.plist */,
+			);
+			path = SockyNotifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D003914422ACF3430099CC82 /* SockyNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003916922ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifier" */;
+			buildPhases = (
+				D003914122ACF3430099CC82 /* Sources */,
+				D003914222ACF3430099CC82 /* Frameworks */,
+				D003914322ACF3430099CC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SockyNotifier;
+			productName = SockyNotifier;
+			productReference = D003914522ACF3430099CC82 /* SockyNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D003915422ACF3440099CC82 /* SockyNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003916C22ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifierTests" */;
+			buildPhases = (
+				D003915122ACF3440099CC82 /* Sources */,
+				D003915222ACF3440099CC82 /* Frameworks */,
+				D003915322ACF3440099CC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D003915722ACF3440099CC82 /* PBXTargetDependency */,
+			);
+			name = SockyNotifierTests;
+			productName = SockyNotifierTests;
+			productReference = D003915522ACF3440099CC82 /* SockyNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D003915F22ACF3440099CC82 /* SockyNotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003916F22ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifierUITests" */;
+			buildPhases = (
+				D003915C22ACF3440099CC82 /* Sources */,
+				D003915D22ACF3440099CC82 /* Frameworks */,
+				D003915E22ACF3440099CC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D003916222ACF3440099CC82 /* PBXTargetDependency */,
+			);
+			name = SockyNotifierUITests;
+			productName = SockyNotifierUITests;
+			productReference = D003916022ACF3440099CC82 /* SockyNotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D003913D22ACF3430099CC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Peter Upfold";
+				TargetAttributes = {
+					D003914422ACF3430099CC82 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D003915422ACF3440099CC82 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D003914422ACF3430099CC82;
+					};
+					D003915F22ACF3440099CC82 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D003914422ACF3430099CC82;
+					};
+				};
+			};
+			buildConfigurationList = D003914022ACF3430099CC82 /* Build configuration list for PBXProject "SockyNotifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D003913C22ACF3430099CC82;
+			productRefGroup = D003914622ACF3430099CC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D003914422ACF3430099CC82 /* SockyNotifier */,
+				D003915422ACF3440099CC82 /* SockyNotifierTests */,
+				D003915F22ACF3440099CC82 /* SockyNotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D003914322ACF3430099CC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003914B22ACF3440099CC82 /* Assets.xcassets in Resources */,
+				D003914E22ACF3440099CC82 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915322ACF3440099CC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915E22ACF3440099CC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D003914122ACF3430099CC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003914922ACF3430099CC82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915122ACF3440099CC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003915A22ACF3440099CC82 /* SockyNotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003915C22ACF3440099CC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003916522ACF3440099CC82 /* SockyNotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D003915722ACF3440099CC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D003914422ACF3430099CC82 /* SockyNotifier */;
+			targetProxy = D003915622ACF3440099CC82 /* PBXContainerItemProxy */;
+		};
+		D003916222ACF3440099CC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D003914422ACF3430099CC82 /* SockyNotifier */;
+			targetProxy = D003916122ACF3440099CC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D003914C22ACF3440099CC82 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D003914D22ACF3440099CC82 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D003916722ACF3440099CC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D003916822ACF3440099CC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D003916A22ACF3440099CC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SockyNotifier/SockyNotifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D003916B22ACF3440099CC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SockyNotifier/SockyNotifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D003916D22ACF3440099CC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockyNotifier.app/Contents/MacOS/SockyNotifier";
+			};
+			name = Debug;
+		};
+		D003916E22ACF3440099CC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SockyNotifier.app/Contents/MacOS/SockyNotifier";
+			};
+			name = Release;
+		};
+		D003917022ACF3440099CC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SockyNotifier;
+			};
+			name = Debug;
+		};
+		D003917122ACF3440099CC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P6R7ZH883;
+				INFOPLIST_FILE = SockyNotifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.upfold.SockyNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SockyNotifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D003914022ACF3430099CC82 /* Build configuration list for PBXProject "SockyNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003916722ACF3440099CC82 /* Debug */,
+				D003916822ACF3440099CC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003916922ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003916A22ACF3440099CC82 /* Debug */,
+				D003916B22ACF3440099CC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003916C22ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003916D22ACF3440099CC82 /* Debug */,
+				D003916E22ACF3440099CC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003916F22ACF3440099CC82 /* Build configuration list for PBXNativeTarget "SockyNotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003917022ACF3440099CC82 /* Debug */,
+				D003917122ACF3440099CC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D003913D22ACF3430099CC82 /* Project object */;
+}
