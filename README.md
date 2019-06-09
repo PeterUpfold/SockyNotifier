@@ -8,3 +8,4 @@ running on Well-Known (and merely well-known, if you catch my drift) ports are b
 
 Inspired by the proof of concept of this demonstrated by https://wybiral.github.io/wtf/
 
+Icon is Public Domain https://thenounproject.com/search/?q=windsock&i=12523

@@ -46,7 +46,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         debugPrint(notification)
         let content = UNMutableNotificationContent()
         content.title = "Socky"
-        content.body = notification.description
+        content.body = notification.object as! String
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
         
