@@ -14,3 +14,11 @@ Icon is Public Domain https://thenounproject.com/search/?q=windsock&i=12523
 **Note:** that this is not particularly serious or practical, but I wanted a project (Socky)
 that let me work directly with the Core Foundation APIs in C, and this seemed a good opportunity. This is the Swift-based
 recipient of the notification that Socky generates.
+
+Installation
+============
+
+ * Install [Socky](https://github.com/PeterUpfold/Socky), as this component listens on the target ports and dispatches the notification.
+ * Build and install `SockyNotifier.app` into `/Applications` or another appropriate path.
+ * Copy `uk.org.upfold.SockyNotifier.plist` into `~/Library/LaunchAgents` to run on login (modify application path in plist if necessary).
+
